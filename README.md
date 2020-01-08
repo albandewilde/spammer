@@ -17,7 +17,7 @@ If you want your own instance of this bot, clone if and complete files
 `secrets.json.tpl` and `env.json.tpl` with the values you want.  
 Then rename these files without the `.tpl` extention (`env.json.tpl` → `env.json`).
 
-Install dependencies by doing `gem install`.  
+Install dependencies by doing `bundle install`.  
 Then to start the bot execute the file `spammer.rb` by doing `ruby spammer.rb`
 or `./spammed.rb`.
 
