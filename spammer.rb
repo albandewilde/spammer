@@ -21,10 +21,10 @@ def waiting_send(bot, channel, message, wait)
     index = rand(0..amount)
     emoji = serv.emoji
     i = 0
-    show = ""
+    emote = ""
     emoji.each do |eId, e|
         if i === index
-            show = e
+            emote = e
         end
         i = i +1
     end
@@ -33,7 +33,7 @@ def waiting_send(bot, channel, message, wait)
       if chan.id === content[0]["channel"].to_i
         # Send message
         puts "I'm sending the message `\033[94m#{message}\033[0m` the the channel \033[35m#{chan.name}\033[0m of the server \033[35m#{serv.name}\033[0m"
-        bot.send_message(chan, show)
+        bot.send_message(chan, emote)
         
         # Don't break, it may have multilple channels with the same name
     end
