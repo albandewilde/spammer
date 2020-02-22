@@ -20,6 +20,9 @@ Then rename these files without the `.tpl` extention (`env.json.tpl` → `env.js
 Then to start the bot execute the file `spammer.rb` by doing `ruby spammer.rb`
 or `./spammed.rb`.
 
+Otherwise, you can do `./start.sh`.  
+Than build and start the docker container of the bot.
+
 ## Implementation
 
 After the bot send a message, he read again the `env.json` file and wait the
