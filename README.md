@@ -27,7 +27,7 @@ Than build and start the docker container of the bot.
 
 ## Implementation
 
-After the bot send a message, he read again the `env.json` file and wait the
+After the bot send a message, he read again the `env.json` file and wait
 the configured time to send the chooses message in the channel you want.  
 That mean, you don't have to stop and start the bot to change the
 configuration.
